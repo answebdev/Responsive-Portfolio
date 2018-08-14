@@ -194,3 +194,71 @@ textarea {
     margin-bottom: 0;
     font-weight: 300;
 }
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (max-width: 980px) {
+    h2 {
+        color: blue;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .work {
+        width: 44%;
+        margin: 10px 25px 25px 0;
+    }
+
+    #heading {
+        clear: both;
+        margin-left: 36px;
+    }
+
+    /* li a {
+        margin-right: 10px;
+    } */
+
+    #main-content {
+        width: 70%;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        color: yellow;
+    }
+
+    #main-content {
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+
+    heading {
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    #main-content {
+        width: 89%;
+    }
+
+    #content-image {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        color: black;
+    }
+}
