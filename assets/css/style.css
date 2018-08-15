@@ -197,11 +197,7 @@ textarea {
 
 /* ===== MEDIA QUERIES ===== */
 
-@media screen and (max-width: 980px) {
-    h2 {
-        color: blue;
-    }
-
+@media screen and (min-width: 769px) and (max-width: 980px) {  
     .container {
         width: 100%;
     }
@@ -216,6 +212,10 @@ textarea {
         margin-left: 36px;
     }
 
+    ul {
+        width: 975px;
+    }
+
     /* li a {
         margin-right: 10px;
     } */
@@ -224,11 +224,19 @@ textarea {
         width: 70%;
         margin-left: 40px;
     }
+
+    input {
+        width: 100%;
+    }
+
+    form {
+        width: 575px;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    h2 {
-        color: yellow;
+@media screen and (min-width: 641px) and (max-width: 768px) { 
+    ul {
+        width: 700px;
     }
 
     #main-content {
@@ -258,7 +266,11 @@ textarea {
         height: auto;
     }
 
-    h2 {
-        color: black;
+    input {
+        width: auto;
+    }
+
+    form {
+        width: 421px;
     }
 }
