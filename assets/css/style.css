@@ -293,6 +293,21 @@ body {
         position: static;
     }
 
+    #logo {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-left: 25px;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .auth-image {
         width: 100%;
         height: auto;
@@ -305,18 +320,9 @@ body {
         margin: 10px 25px 25px 0;
     }
 
-    #logo {
-        clear: both;
-        margin-left: 41px;
-    }
-
-    nav {
-        margin-top: 30px;
-        width: 318px;
-    }
-
     .main-section {
         width: 89.5%;
+        margin-top: 65px;
         margin-left: 40px;
     }
 
